@@ -1,0 +1,246 @@
+body{
+  
+  
+  
+}
+.menu{
+    background:linear-gradient(90deg,rgba(46, 255, 95, 1) 0%, rgba(17, 125, 0, 1) 50%, rgba(14, 240, 183, 1) 100%);
+     margin: 0;
+     padding: 15px;
+     display: flex;
+     justify-content:space-evenly;
+     list-style:none;
+}
+.menu-link{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    display: inline-block;
+    font-family: 'ROBOTO', sans-serif;
+    
+}
+.menu-link:hover{
+    transform: scale(1.05) ;
+    color:#FFDE70;
+}
+
+.logo-container {
+    display: flex;           
+    justify-content:center; 
+    margin: 20px;
+}
+.logo {
+    width: 80px;             
+            
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    min-height: 90vh;
+    background-image: url('pexels-demircagatay-5539371.jpg') ;
+    background: url('pexels-demircagatay-5539371.jpg') no-repeat center / cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('pexels-demircagatay-5539371.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    
+}
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 0; 
+color:#70E65E;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+font-family: 'ROBOTO', sans-serif;
+font-weight: 600;                   
+    
+}
+
+.hero p {
+    font-size: 20px;
+    text-shadow: 2px 2px 5px black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.cta-button{
+     ont-size: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 50px;
+    background-image: linear-gradient(to right,#28b485,#117D00);
+    box-shadow: 0 3px 10px rgba(40, 180, 133, 0.8);
+    transition:all 0.3s ease;
+    display: block;       
+    margin: 20px auto;     
+    width: fit-content;    
+    text-align: center;
+    margin-top: 75px;
+    font-family: 'ROBOTO', sans-serif;
+    font-weight: 600;                     
+    font-size: 12px;
+    letter-spacing: 1px; 
+    
+}
+.cta-button:hover{
+    background-image: linear-gradient(to left,#28b485,#117D00);
+     transform: scale(1.05) translateY(-3px);
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;              
+    padding: 40px;
+    
+}
+.text-content {
+    flex: 1;
+   
+    
+}
+.image-content {
+    flex: 1;
+}
+.image-content img {
+    max-width: 100%;        
+    height: auto;
+}
+
+.text-content h2{
+ font-family: 'ROBOTO', sans-serif;
+ font-size: 32px;
+ font-weight: 600;                     
+line-height: 1,2;
+color: #0C2609;
+}
+.text-content p{
+font-family: 'Helvetica', sans-serif;
+ font-size: 16px;
+ font-weight: 200;                     
+line-height: 1,2;
+}
+    .product-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center ;
+        align-items: stretch;
+        padding: 40px 20px;
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .product-container h2{
+        width: 100%;
+        text-align: center;
+        font-family: 'ROBOTO', sans-serif;
+        font-size: 32px;
+ font-weight: 600;                     
+line-height: 1.2;
+color: #0C2609;
+    }
+    .product-card{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 300px;   
+    max-width: 320px;   
+    min-width: 280px;   
+    background: #DCFADC;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+    }
+    .product-card h3 {
+    text-align: center;      
+    min-height: 60px;        
+    display: flex;           
+    align-items: center;    
+    justify-content: center; 
+    font-family: 'Roboto', sans-serif;
+    color: #0C2609;
+    }
+    
+    .product-card img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    margin-bottom: 10px;
+     }
+     .product-card ul {
+    flex-grow: 1; 
+    margin-bottom: 10px;
+    padding-left: 20px;
+    
+}
+    .product-card li {
+    font-family: 'Helvetica', sans-serif; 
+    font-size: 16px;                 
+    color: #0C2609;                   
+    line-height: 1.5;                 
+                
+}
+.product-card ul {
+    margin-top: 0;      
+    padding-left: 25px; 
+    }
+    footer {
+    background-color: #0C2609; 
+    color:#fffff;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Helvetical', sans-serif;
+}
+
+.contact {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+footer h1 {
+    font-size: 28px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    color: #FFDE70; 
+    text-transform: uppercase;
+}
+
+
+footer p {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: #FFDE70; 
+}
+
+/* Стилізація кнопки */
+.cta-button {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #ff8c00;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 50px; 
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 15px rgba(255, 140, 0, 0.4);
+    text-transform: uppercase;
+}
+
+
+.cta-button:hover {
+    background-color: #e67e00;
+    transform: translateY(-3px); /* Кнопка трохи піднімається */
+    box-shadow: 0 6px 20px rgba(255, 140, 0, 0.6);
+}
+
+.cta-button:active {
+    transform: translateY(0); /* Повертається на місце при натисканні */
+}
